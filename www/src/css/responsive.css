@@ -1,0 +1,726 @@
+
+
+@media (max-width: 800px), (max-height: 800px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 720px), (max-height: 720px) {
+    body {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 640px), (max-height: 640px) {
+    body {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 480px), (max-height: 480px) {
+    body {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 320px), (max-height: 320px) {
+    body {
+        font-size: 0.4em;
+    }
+}
+
+@media (min-width: 641px) {
+	.ui-header .ui-logo img, .ui-footer .ui-logo img {
+		padding: 28px 0 0 0;
+		max-width: 55%;
+	}
+}
+
+
+@media (max-width: 640px) {
+    .ui-navigation {
+        height: 53px;
+        top: 69px;
+    }
+
+	.ui-header .img-btn img, .ui-footer .img-btn img { max-height: 95% !important}
+
+    .ui-navigation ul li a {
+        font-size: 24px;
+        line-height: 53px;
+    }
+
+    .ui-header, .ui-page-theme-a .ui-header.ui-bar-inherit {
+        height: 67px;
+    }
+
+    .ui-header .ui-logo img, .ui-footer .ui-logo img {
+        padding-top: 23px;
+		max-width: 50% !important;
+    }
+
+    .ui-page-header-fixed .ui-content {
+        padding-top: 132px;
+    }
+
+    .iframeTop {
+        padding-top: 69px !important;
+    }
+
+    .offer-list .offer .main .title {
+        font-size: 30px;
+        margin-bottom: 10px;
+        line-height: 33px;
+    }
+
+    .offer-list .offer .main .text {
+        font-size: 20px;
+        width: 63%;
+    }
+
+    .offer-list .offer .keywords {
+        width: 34%;
+    }
+
+    .offer-list .offer .keywords ul li {
+        float: none;
+        width: auto;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 5px 0px;
+    }
+
+    .ui-footer .ui-btn {
+        margin-top: 10px;
+    }
+
+    .offer-list .offer .main .info {
+        margin-left: 90px;
+    }
+
+    .offer-list .offer .main .image img {
+        /*border-radius: 0px;*/
+    }
+
+    .offer-list .offer .main .image {
+        height: 77px;
+        width: 77px;
+    }
+
+    .offer-list .offer .extras .contacts a img {
+        max-height: 43px;
+    }
+
+    .offer-list .offer .discount .image {
+        width: 162px;
+        height: 73px;
+    }
+
+    .offer-list .offer .discount .image span {
+        line-height: 73px;
+        font-size: 36px;
+    }
+
+    .offer-list .offer .discount .data {
+        margin: 0 0 0 172px;
+        height: 73px;
+    }
+
+    .offer-list .offer .discount .title { font-size: 26px;}
+
+    .offer-list .offer .discount .time{ font-size: 16px}
+
+    .offer-list .offer .discount .weekdays li {
+        width: 34px;
+        font-size: 14px;
+    }
+
+    .offer-list .offer .discount .click-to-check {
+        font-size: 26px;
+        line-height: 73px;
+    }
+
+    .offer-list .offer .discount .get-offer a {
+        font-size: 16px;
+        line-height: 55px;
+    }
+
+    .offer-list .offer .discount .get-offer img {
+        max-height: 38px;
+        top: 15px;
+    }
+
+    .offer-list .offer .discount .click-to-check img {
+        margin-top: -16px;
+        max-height: 37px;
+    }
+
+    .review-opened {
+        font-size: 17px;
+        font-weight: 200;
+    }
+
+    .review-opened a.more-reviews,
+    .offer-list .offer .review-opener a {
+        font-size: 16px;
+    }
+
+    .review-opened .close img { max-height: 20px}
+
+    .ui-footer, .ui-page-theme-a .ui-footer.ui-bar-inherit {
+        height: 77px;
+    }
+
+    .ui-footer.ui-bar-a .ui-btn.img-btn {
+        height: 60px;
+    }
+
+    .ui-header .left-btn { margin-top: 4px}
+
+    /*.area-list .list-item .offer-count-circle {*/
+        /*height: 130px;*/
+        /*line-height: 130px;*/
+        /*width: 130px;*/
+    /*}*/
+
+    /*.area-list .list-item .button-wrapper {*/
+        /*margin-left: 150px;*/
+        /*padding: 25px 0;*/
+    /*}*/
+
+    .ui-btn.discover-button {
+        padding: 15px 0;
+    }
+
+    .big-paragraph {
+        font-size: 19px;
+    }
+
+    .thin-title {
+        font-size: 29px;
+    }
+
+    .map-offer .offer-details .offer-text .offer-title {
+        font-size: 24px;
+    }
+
+    .map-offer .offer-details .offer-text .valid-time {
+        font-size: 14px;
+    }
+
+    .map-offer .offer-details .offer-text .place-name {
+        font-size: 16px;
+    }
+
+    .map-offer .offer-details .offer-link .text {font-size: 36px;}
+
+    .map-offer .offer-details .offer-link {
+        line-height: 60px;
+    }
+
+    .map-offer .offer-details .discount-arrow {
+        font-size: 16px;
+    }
+
+    .map-offer2 .offer-details .offer-link .text {
+        font-size: 24px
+    }
+}
+
+
+@media (max-width: 480px) {
+
+	.ui-header .ui-logo img, .ui-footer .ui-logo img { max-width: 65% !important}
+	 .ui-footer .img-btn img { max-height: 65% !important}
+    /*.area-list .list-item .offer-count-circle {*/
+        /*height: 80px;*/
+        /*line-height: 80px;*/
+        /*width: 80px;*/
+    /*}*/
+    /*.area-list .list-item .button-wrapper {*/
+        /*margin-left: 90px;*/
+        /*padding: 15px 0 0 0;*/
+    /*}*/
+    .big-paragraph {
+        font-size: 15px;
+    }
+    .thin-title {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .bottom-button-container {
+        bottom: 20px;
+    }
+    /*.area-list .button {*/
+        /*padding: 7px 10px;*/
+    /*}*/
+    .ui-btn.discover-button {
+        padding: 10px 0;
+    }
+    .ui-btn.discover-button { font-size: 15px;}
+
+    .ui-navigation ul li a {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .offer-list .offer .main .title {
+        line-height: 29px;
+        font-size: 25px;
+    }
+    .offer-list .offer .main .image {
+        height: 50px;
+        width: 50px;
+    }
+    .offer-list .offer .main .info {
+        margin-left: 60px;
+    }
+    .offer-list .offer .keywords {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+    .offer-list .offer .main .text {
+        font-size: 16px;
+        float: none;
+        width: 100%;
+    }
+    .offer-list .offer .keywords ul li {
+        float: left;
+        width: auto !important;
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 20px;
+        margin: 0 5px 5px 0px;
+    }
+    .review-opened a.more-reviews, .offer-list .offer .review-opener a { font-size: 14px}
+
+    .offer-list .offer .discount .image strong {height: 57px}
+
+    .offer-list .offer .discount .image span {
+        line-height: 55px;
+        font-size: 22px;
+    }
+    .offer-list .offer .discount .image {
+        width: 100px;
+        height: 55px;
+    }
+    .offer-list .offer .discount .data {
+        margin: 0 0 0 105px;
+        height: 55px;
+    }
+    .offer-list .offer .discount .weekdays li {
+        width: 22px;
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .offer-list .offer .discount .title {
+        font-size: 18px;
+        padding-right: 50px;
+        line-height: 20px;
+
+    }
+    .offer-list .offer .discount .time {
+        font-size: 11px;
+    }
+    .offer-list .offer .discount .get-offer img {
+        max-height: 27px;
+        top: 10px;
+    }
+    .offer-list .offer .discount .get-offer a {
+        font-size: 14px;
+    }
+    .offer-list .offer .discount .get-offer { top: 0}
+    .offer-list .offer .discount .click-to-check {
+        font-size: 20px;
+        line-height: 55px;
+    }
+    .offer-list .offer .discount .click-to-check img {
+        margin-top: -12px;
+        max-height: 26px;
+    }
+    .ui-header, .ui-page-theme-a .ui-header.ui-bar-inherit { height: 50px}
+    .ui-footer, .ui-page-theme-a .ui-footer.ui-bar-inherit{ height: 50px}
+    .ui-header .ui-logo img, .ui-footer .ui-logo img {
+        padding-top: 16px;
+    }
+    .ui-header .left-btn {
+        margin-top: 2px;
+    }
+    .ui-header .right-btn {
+        margin-top: 1px;
+    }
+    .ui-footer .img-btn img {
+        max-height: 67%;
+    }
+    .review-opened {
+        font-size: 15px;
+    }
+    .ui-navigation {
+        top: 52px;
+        height: 40px !important;
+    }
+    .ui-page-header-fixed .ui-content {
+        padding-top: 100px;
+    }
+    .iframeTop {
+        padding-top: 52px !important;
+    }
+    .ui-page-footer-fixed .ui-content {
+        padding-bottom: 53px !important;
+    }
+    .offer-list .offer .main .image {
+        margin: 4px 10px 0 0;
+    }
+    .map-offer {
+        width: 150px;
+        top: 111px;
+    }
+    .map-offer .offer-details .offer-text .offer-title {
+        font-size: 18px;
+    }
+    .map-offer .offer-details .offer-text .valid-time {
+        font-size: 11px;
+    }
+    .map-offer .offer-details .offer-text .place-name {
+        font-size: 13px;
+        margin: 0.5em 15% 2px 0;
+    }
+    .map-offer .offer-details .offer-text .chevron-right img {
+        max-width: 60%;
+    }
+    .map-offer2 .offer-details .offer-link .text {
+        font-size: 18px;
+    }
+    .map-offer .offer-details .offer-link .text {
+        font-size: 20px;
+    }
+    .map-offer .offer-details .offer-link {
+        line-height: 40px;
+    }
+    .map-offer2 {
+        top: 111px;
+        left: 160px;
+    }
+    .open-now { top: 350px;left: 100px}
+    /*.area-list .list-item {*/
+        /*padding: 5px 0;*/
+    /*}*/
+    .offer-list .offer .extras .contacts a img { max-height: 30px;}
+
+    .offer-list .offer .rating-stars li {
+        background: url('../img/empty-star2.png') no-repeat 0 0;
+        width: 20px;
+        height: 20px;
+    }
+    .offer-list .offer .rating-stars li.full {
+        background: url('../img/full-star2.png') no-repeat 0 0;
+    }
+    span.stars, span.stars span {
+        background: url('../img/empty-star2.png') 0 0px repeat-x;
+        width: 100px;
+        height: 20px;
+    }
+    span.stars span {
+        background: url('../img/full-star2.png') 0 0px repeat-x;
+    }
+
+    .ui-footer.ui-bar-a .ui-btn.img-btn { height: 48px}
+
+    .map-offer .offer-details .discount-arrow {
+        position: absolute;
+        width: 33px;
+        line-height: 15px;
+        font-size: 11px;
+        height: 47px;
+        background: url('../img/discount-arrow3.png') no-repeat 0 0;
+    }
+
+    .map-offer2 .offer-details .discount-arrow {
+        background: url('../img/discount-arrow4.png') no-repeat 0 0;
+    }
+
+    .open-now {
+        background: url('../img/bg-open-now2.png') no-repeat 0 0;
+        width: 33px;
+        height: 47px;
+    }
+
+    .open-now a {
+        font-size: 10px;
+        line-height: 10px;
+        text-align: right;
+        letter-spacing: -0.5px;
+        padding-right: 2px;
+        width: 30px;
+    }
+    .offer-list .offer .number {
+        left: 5px;
+        top: 5px;
+        font-size: 12px;
+    }
+	.footer-collapse .collapse-toggle, .footer-collapse .collapse-toggle:hover, .footer-collapse .collapse-toggle:focus, .footer-collapse .collapse-toggle:active, .footer-collapse .collapse-toggle {
+		margin-top: -25px;
+		padding: 0;
+	}
+
+	.footer-collapse .collapse-toggle img {
+		margin-top: 18px;
+	}
+
+	.map-filters .filter {
+		font-size: 14px;
+	}
+}
+
+@media (orientation : landscape) {
+	.footer-collapse .collapse-toggle, .footer-collapse .collapse-toggle:hover, .footer-collapse .collapse-toggle:focus, .footer-collapse .collapse-toggle:active, .footer-collapse .collapse-toggle {
+		margin-top: -25px;
+		padding: 0;
+	}
+
+	.footer-collapse .collapse-toggle img {
+		margin-top: 18px;
+	}
+
+	.map-filters .filter {
+		font-size: 14px;
+	}
+
+    /*.area-list .list-item .offer-count-circle {*/
+        /*height: 80px;*/
+        /*line-height: 80px;*/
+        /*width: 80px;*/
+    /*}*/
+    /*.area-list .list-item .button-wrapper {*/
+        /*margin-left: 90px;*/
+        /*padding: 15px 0 0 0;*/
+    /*}*/
+    .big-paragraph {
+        font-size: 15px;
+    }
+    .thin-title {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .bottom-button-container {
+        bottom: 7px;
+    }
+    /*.area-list .button {*/
+        /*padding: 7px 10px;*/
+    /*}*/
+    .ui-btn.discover-button {
+        padding: 10px 0;
+    }
+    .ui-btn.discover-button { font-size: 15px;}
+
+    .ui-navigation ul li a {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .offer-list .offer .main .title {
+        line-height: 29px;
+        font-size: 25px;
+    }
+
+    .offer-list .offer .main .image {
+        height: 50px;
+        width: 50px;
+    }
+    .offer-list .offer .main .info {
+        margin-left: 60px;
+    }
+    .offer-list .offer .keywords {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+    .offer-list .offer .main .text {
+        font-size: 16px;
+        float: none;
+        width: 100%;
+    }
+    .offer-list .offer .keywords ul li {
+        float: left;
+        width: auto !important;
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 20px;
+        margin: 0 5px 5px 0px;
+    }
+    .review-opened a.more-reviews, .offer-list .offer .review-opener a { font-size: 14px}
+
+    .offer-list .offer .discount .image strong {height: 57px}
+
+    .offer-list .offer .discount .image span {
+        line-height: 55px;
+        font-size: 22px;
+    }
+    .offer-list .offer .discount .image {
+        width: 100px;
+        height: 55px;
+    }
+    .offer-list .offer .discount .data {
+        margin: 0 0 0 105px;
+        height: 55px;
+    }
+    .offer-list .offer .discount .weekdays li {
+        width: 22px;
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .offer-list .offer .discount .title {
+        font-size: 18px;
+        padding-right: 50px;
+        line-height: 20px;
+
+    }
+    .offer-list .offer .discount .time {
+        font-size: 11px;
+    }
+    .offer-list .offer .discount .get-offer img {
+        max-height: 27px;
+        top: 10px;
+    }
+    .offer-list .offer .discount .get-offer a {
+        line-height: 55px;
+        font-size: 14px;
+    }
+    .offer-list .offer .discount .get-offer { top: 0}
+    .offer-list .offer .discount .click-to-check {
+        font-size: 20px;
+        line-height: 55px;
+    }
+    .offer-list .offer .discount .click-to-check img {
+        margin-top: -12px;
+        max-height: 26px;
+    }
+    .ui-header, .ui-page-theme-a .ui-header.ui-bar-inherit { height: 50px}
+    .ui-footer, .ui-page-theme-a .ui-footer.ui-bar-inherit{ height: 50px}
+    .ui-header .ui-logo img, .ui-footer .ui-logo img {
+        padding-top: 14px;
+		max-height: 45% !important;
+    }
+    .ui-header .left-btn {
+        margin-top: 2px;
+    }
+    .ui-header .right-btn {
+        margin-top: 1px;
+    }
+    .ui-footer .img-btn img {
+        max-height: 67%;
+    }
+    .review-opened {
+        font-size: 15px;
+    }
+    .ui-navigation {
+        top: 52px;
+        height: 40px !important;
+    }
+    .ui-page-header-fixed .ui-content {
+        padding-top: 100px;
+    }
+    .iframeTop {
+        padding-top: 52px !important;
+    }
+    .ui-page-footer-fixed .ui-content {
+        padding-bottom: 53px !important;
+    }
+    .offer-list .offer .main .image {
+        margin: 4px 10px 0 0;
+    }
+    .map-offer {
+        width: 150px;
+        top: 111px;
+    }
+    .map-offer .offer-details .offer-text .offer-title {
+        font-size: 18px;
+    }
+    .map-offer .offer-details .offer-text .valid-time {
+        font-size: 11px;
+    }
+    .map-offer .offer-details .offer-text .place-name {
+        font-size: 13px;
+        margin: 0.5em 15% 2px 0;
+    }
+    .map-offer .offer-details .offer-text .chevron-right img {
+        max-width: 60%;
+    }
+    .map-offer2 .offer-details .offer-link .text {
+        font-size: 18px;
+    }
+    .map-offer .offer-details .offer-link .text {
+        font-size: 20px;
+    }
+    .map-offer .offer-details .offer-link {
+        line-height: 40px;
+    }
+    .map-offer2 {
+        top: 111px;
+        left: 160px;
+    }
+    .open-now { top: 350px;left: 100px}
+    /*.area-list .list-item {*/
+        /*padding: 5px 0;*/
+    /*}*/
+    .offer-list .offer .extras .contacts a img { max-height: 30px;}
+
+    .offer-list .offer .rating-stars li {
+        background: url('../img/empty-star2.png') no-repeat 0 0;
+        width: 20px;
+        height: 20px;
+    }
+    .offer-list .offer .rating-stars li.full {
+        background: url('../img/full-star2.png') no-repeat 0 0;
+    }
+    span.stars, span.stars span {
+        background: url('../img/empty-star2.png') 0 0px repeat-x;
+        width: 100px;
+        height: 20px;
+    }
+    span.stars span {
+        background: url('../img/full-star2.png') 0 0px repeat-x;
+    }
+
+    .ui-footer.ui-bar-a .ui-btn.img-btn { height: 48px}
+
+    .map-offer .offer-details .discount-arrow {
+        position: absolute;
+        width: 33px;
+        line-height: 15px;
+        font-size: 11px;
+        height: 47px;
+        background: url('../img/discount-arrow3.png') no-repeat 0 0;
+    }
+
+    .map-offer2 .offer-details .discount-arrow {
+        background: url('../img/discount-arrow4.png') no-repeat 0 0;
+    }
+
+    .open-now {
+        background: url('../img/bg-open-now2.png') no-repeat 0 0;
+        width: 33px;
+        height: 47px;
+    }
+
+    .open-now a {
+        font-size: 10px;
+        line-height: 10px;
+        text-align: right;
+        letter-spacing: -0.5px;
+        padding-right: 2px;
+        width: 30px;
+    }
+    .offer-list .offer .number {
+        left: 5px;
+        top: 5px;
+        font-size: 12px;
+    }
+
+	.bottom-button-container {
+		position: relative;
+		margin-top: 20px;
+	}
+}
