@@ -26,7 +26,7 @@ var filtersModule = {
 
         $.ajax({
             type: "GET",
-            url: app.appUrl+"provider/filters",
+            url: "http://antipiracy.in/v1.1/filters.php",
             success: function (obj) {
 
                 var template = $("#filter-footer-collapse .filter-list").html();
