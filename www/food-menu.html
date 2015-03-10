@@ -1,0 +1,49 @@
+<ons-navigator animation="slide" var="gallery">  
+  <ons-page>
+    <ons-toolbar modifier="opacity">
+      <div class="left">
+        <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" fixed-width="false"></ons-icon></ons-toolbar-button>
+      </div>
+      <div class="center">Select Your Category</div>
+    </ons-toolbar>
+
+    <div class="app-page">
+      <div class="app-page-menu">
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('dishes.html');">
+              <img src="img/menu/breakfast.png">
+              <p>Orthopaedic</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('dishes.html');">
+              <img src="img/menu/mains.png">
+              <p>Dentist</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('dishes.html');">
+              <img src="img/menu/salads.png">
+              <p>ENT</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('dishes.html');">
+              <img src="img/menu/desserts.png">
+              <p>General Surgeon</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+      </div>
+
+    </div>
+
+  </ons-page>
+</ons-navigator>   
